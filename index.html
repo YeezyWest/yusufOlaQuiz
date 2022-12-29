@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    
+    <title>JS</title>
+</head>
+<body>
+     <!--Top section-->
+     <header class="py-28">
+         <div class="text-center">
+            <h1 class="capitalize text-5xl text-blue-500 font-bold">Yusuf Olatunji Quiz</h1>
+         </div>
+     </header>
+
+     <!--Result Section-->
+     <div  class="result hidden bg-gray-700">
+     <div class="text-center">
+      <p class="text-lg text-white">Your scored <span class="text-blue-500 text-5xl md:text-9xl font-extralight">0%</span>😎</p>
+     </div>
+    </div>
+     <main class="bg-blue-800 text-white">
+        <div class="py-4 pl-10 md:pl-52">
+            <h2 class="text-3xl py-5 mb-10">How well do you know me😏...</h2>
+            <form class="quiz-form">
+              <!--Q1-->
+              <div class="mb-10">
+                <p class="text-lg mb-3 capitalize leading-loose tracking-widest">1. what is yusuf's nickname?</p>
+                <div class="py-2">
+                  <input type="radio" name="q1" value="A" >
+                  <label > Yeezy West</label>
+                </div>
+                <div class="py-2">
+                  <input type="radio" name="q1" value="B" >
+                  <label > West_Nation</label>
+                </div>
+              </div>
+               <!--Q2-->
+              <div class="mb-10">
+                <p class="text-lg mb-3 capitalize leading-loose tracking-widest">2. what was your first impression towards yusuf meeting him from the very first day. </p>
+                <div class="py-2">
+                  <input type="radio" name="q2" value="A" >
+                  <label > A talkactive</label>
+                </div>
+                <div class="py-2">
+                  <input type="radio" name="q2" value="B" >
+                  <label > Loveable</label>
+                </div>
+              </div>
+               <!--Q3-->
+               <div class="mb-10">
+                <p class="text-lg mb-3">3. What Yusuf's hobbie</p>
+                <div class="py-2">
+                  <input type="radio" name="q3" value="A" >
+                  <label > Following woman</label>
+                </div>
+                <div class="py-2">
+                  <input type="radio" name="q3" value="B" >
+                  <label > Coding</label>
+                </div>
+              </div>
+               <!--Q4-->
+               <div>
+                <p class="text-lg mb-3">4. Name of Yusuf's Favourite musical artists(trap)</p>
+                <div class="py-2">
+                  <input type="radio" name="q4" value="A" >
+                  <label > Lil Durk</label>
+                </div>
+                <div class="py-2">
+                  <input type="radio" name="q4" value="B" >
+                  <label > Lil Baby</label>
+                </div>
+              </div>
+              
+             
+              <!--Submit -->
+              <div>
+                <input type="submit" class="bg-white text-blue-500 py-3 px-6 cursor-pointer rounded font-semibold shadow-2xl shadow-black">
+              </div>
+            </form>
+        </div>
+     </main>
+  
+    <script  src="sandbox.js"></script>
+</body>
+</html>
